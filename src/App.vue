@@ -1,5 +1,7 @@
 <template>
-  <div class="espaco-dois"></div>
+  <div class="box-shadow-top">
+  </div>
+  <div class="espaco-dois" style="height: 100px;"></div>
   <div id="app">
     <div v-if="loading" class="loader-overlay">
       <div class="loader"></div>
@@ -47,6 +49,37 @@
         <br><br>
         Em 2024 <a href="https://www.unimed.coop.br/site/web/nortedomatogrosso" style="color: white; text-decoration: none;">iniciei minha carreira profissional na Unimed Norte do Mato Grosso</a>  tendo a oportunidade de desempenhar meus conhecimentos técnicos e em um ambiente colaborativo juntamente em uma equipe de 14 pessoas, no núcleo de Gestão da Informação e Negócios.
       </p>
+
+      <div class="ultimo-projeto" id="ultimo">
+        <div class="flex">
+        <div class="ultimo-projeto-img"></div>
+        <div class="ultimo-projeto-title">
+          <p>Último Projeto<br><a style="font-weight: normal;">Safira Streaming</a></p>
+          <div class="ultimo-projeto-subtitle">
+          <p>[Projeto] Utilizando vídeos sertanejos como exemplos, o projeto Safira Streaming é uma plataforma inovadora... <a href="https://www.linkedin.com/feed/update/urn:li:activity:7309256256211357696/" style="text-decoration: none; color: gray;">ver mais</a>
+          </p>
+        </div>
+        </div>
+
+        </div>
+        
+        
+      </div>
+      <div class="ultimo-projeto" id="ultimo">
+        <div class="flex">
+        <div class="ultimo-projeto-img-dois"></div>
+        <div class="ultimo-projeto-title">
+          <p>Projeto Destaque<br><a style="font-weight: normal;">Portal de Projetos</a></p>
+          <div class="ultimo-projeto-subtitle">
+          <p>[Projeto] A plataforma incorpora conceitos avançados de gerenciamento de portfólio... <a href="https://www.linkedin.com/feed/update/urn:li:activity:7304570876815925248/" style="text-decoration: none; color: gray;">ver mais</a>
+          </p>
+        </div>
+        </div>
+
+        </div>
+        
+        
+      </div>
       <div class="espaco-dois"></div>
       <div class="text-all-title">
         <p>Experiência (1)</p>
@@ -55,7 +88,7 @@
       <div class="experiencia-um">
         <div class="item-um">
           <div class="text-all-subtitle">
-            <p>Abril - Atualmente</p>
+            <p>2024 - Atualmente</p>
           </div>
           <div class="text-unimed">
             <p>Assistente de Suporte</p>
@@ -219,10 +252,62 @@
       <div class="footer">Portfólio desenvolvido por Mateus e inspirado em  <a href="https://brittanychiang.com/" style="text-decoration: none; color: gray;">Brittany Chiang site</a>.</div>
     </div>
     </div>
-    <HelloWorld />
 </template>
 
 <style>
+.ultimo-projeto-subtitle {
+  font-size: 15px;
+  color: gray;
+  font-weight: normal;
+  width: 190px;
+  text-align: left;
+}
+.ultimo-projeto-img-dois {
+  background-image: url("https://i.imgur.com/oJ5E5ZX.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 350px;
+  margin-left: -11px;
+  margin-bottom: -15px;
+  height: 200px;
+  border-radius: 10px;
+}
+.ultimo-projeto-img {
+  background-image: url("https://i.imgur.com/x7yug1v.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 350px;
+  margin-left: -11px;
+  margin-bottom: -15px;
+  height: 200px;
+  border-radius: 10px;
+}
+.flex {
+  display: flex;
+  gap: 10px;
+}
+.ultimo-projeto-title {
+  font-size: 16px;
+  font-weight: bold;
+
+  color: white;
+}
+.ultimo-projeto {
+  width: 100%;
+  height: 190px;
+  border: 1px solid rgb(37, 37, 37);
+  border-radius: 10px;
+  padding: 1em;
+  padding-top: 0px;
+}
+.box-shadow-top {
+  box-shadow: 1px 10px 60px rgb(255, 102, 0);
+  width: 100%;
+  height: 30px;
+  margin-top: -30px;
+}
  .tooltip {
             position: relative;
             display: inline-block;
@@ -254,6 +339,10 @@
             opacity: 1; /* Torna o tooltip visível */
         }
 @media (max-width: 768px) {
+  #ultimo {
+    width: 100%;
+    margin: 0 auto;
+  }
   #header {
     position: relative;
     margin: 0 auto;
