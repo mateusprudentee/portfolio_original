@@ -3,9 +3,7 @@
   </div>
   <div class="espaco-dois" style="height: 100px;"></div>
   <div id="app">
-    <div v-if="loading" class="loader-overlay">
-      <div class="loader"></div>
-    </div>
+
   </div>
 
   <div class="container">
@@ -18,25 +16,16 @@
         <p>Engenheiro de Software</p>
       </div>
       <div class="atualmente">
-        <p>Atualmente como Assistente de Suporte na Unimed há mais de 1 ano (desde abril 2024)</p>
+        <p>Atualmente como Analista de Business Intelligence no Sicoob Norte MT</p>
       </div>
       <div class="flex-icons" id="icons">
 
       <div class="linkedin">
-      <a href="https://www.linkedin.com/in/mateusprudentee/" target="_blank" style="color: inherit; text-decoration: none;">
-      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
-        <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.761 0 5-2.239 5-5v-14c0-2.761-2.239-5-5-5zm-11 19h-3v-10h3v10zm-1.5-11.25c-.966 0-1.75-.784-1.75-1.75s.784-1.75 1.75-1.75 1.75.784 1.75 1.75-.784 1.75-1.75 1.75zm13.5 11.25h-3v-5.5c0-1.104-.896-2-2-2s-2 .896-2 2v5.5h-3v-10h3v1.179c.646-.891 1.645-1.179 2.5-1.179 2.208 0 4 1.792 4 4v6z"/>
-      </svg>
+      <a href="https://www.linkedin.com/in/mateusprudentee/" target="_blank" style="color: inherit; text-decoration: none;">Me acompanhe no linkedin 
       </a>
       </div>
 
-      <div class="whats">
-      <div class="whatsapp-icon">
-        <a href="https://wa.me/5565993622978" target="_blank" style="text-decoration: none; color: inherit;">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" style="width: 24px; height: 24px;">
-        </a>
-      </div>
-      </div>
+    
 
 
 
@@ -48,50 +37,40 @@
         Minha motivação e interesse profundo na área de software e desenvolvimento iniciou em 2021. Nos anos de 2021 a 2022 tive o foco principalmente na ára de Desenvolvimento Web e Banco de Dados (MySQL & Oracle), ficando nos anos de 2023 e 2024 para focado no Java, JavaScript e Ruby.
         <br><br>
         Em 2024 <a href="https://www.unimed.coop.br/site/web/nortedomatogrosso" style="color: white; text-decoration: none;">iniciei minha carreira profissional na Unimed Norte do Mato Grosso</a>  tendo a oportunidade de desempenhar meus conhecimentos técnicos e em um ambiente colaborativo juntamente em uma equipe de 14 pessoas, no núcleo de Gestão da Informação e Negócios.
+        <br><br>
+        Após um passo importante na carreira profissional, em <a href="https://www.sicoob.com.br/web/sicoobnortemt/" style="color: white; text-decoration: none;">Junho entrei no Sicoob aos 19 anos de idade para atuar junto com o time de Performance e Estratégia da cooperativa</a> como Analista de Business Intelligence. Atuando na área de desenvolvimento e análise de dados, posso demonstrar minhas habilidades técnicas em uma das maiores cooperativas financeiras do país.
+
       </p>
 
-      <div class="ultimo-projeto" id="ultimo">
-        <div class="flex">
-        <div class="ultimo-projeto-img"></div>
-        <div class="ultimo-projeto-title">
-          <p>Último Projeto<br><a style="font-weight: normal;">Safira Streaming</a></p>
-          <div class="ultimo-projeto-subtitle">
-          <p>[Projeto] Utilizando vídeos sertanejos como exemplos, o projeto Safira Streaming é uma plataforma inovadora... <a href="https://www.linkedin.com/feed/update/urn:li:activity:7309256256211357696/" style="text-decoration: none; color: gray;">ver mais</a>
-          </p>
-        </div>
-        </div>
+ 
 
-        </div>
-        
-        
-      </div>
-      <div class="ultimo-projeto" id="ultimo">
-        <div class="flex">
-        <div class="ultimo-projeto-img-dois"></div>
-        <div class="ultimo-projeto-title">
-          <p>Projeto Destaque<br><a style="font-weight: normal;">Portal de Projetos</a></p>
-          <div class="ultimo-projeto-subtitle">
-          <p>[Projeto] A plataforma incorpora conceitos avançados de gerenciamento de portfólio... <a href="https://www.linkedin.com/feed/update/urn:li:activity:7304570876815925248/" style="text-decoration: none; color: gray;">ver mais</a>
-          </p>
-        </div>
-        </div>
-
-        </div>
-        
-        
-      </div>
       <div class="espaco-dois"></div>
       <div class="text-all-title">
-        <p>Experiência (1)</p>
+        <p>Experiências (<b>2</b>)</p>
       </div>
       <div class="linha"></div>
       <div class="experiencia-um">
         <div class="item-um">
           <div class="text-all-subtitle">
-            <p>2024 - Atualmente</p>
+            <p>Junho 2025 - atual</p>
           </div>
           <div class="text-unimed">
-            <p>Assistente de Suporte</p>
+            <p>Analista de Business Intelligence</p>
+          </div>
+          <div class="text-unimed-name">
+            <p>Sicoob Norte MT</p>
+          </div>
+          <div class="text-unimed-text">
+            <p>Responsável pela atuação junto com o time de Performance da cooperativa para desenvolvimento de métricas, análises e relatórios com Inteligência Artificial.<br><br>Modelagem de processos, desenvolvimento de sistemas e segurança da informação também entram no escopo das atividades. </p>
+            
+          </div>
+        </div>
+        <div class="item-um">
+          <div class="text-all-subtitle">
+            <p>2024 - Maio 2025</p>
+          </div>
+          <div class="text-unimed">
+            <p>&nbsp; Assistente de Projetos</p>
           </div>
           <div class="text-unimed-name">
             <p>Unimed Norte do Mato Grosso</p>
@@ -228,7 +207,7 @@
             <p>Análise e Desenvolvimento de Sistemas</p>
           </div>
           <div class="text-software-name">
-            <p>ETEP - Centro Universitário</p>
+            <p>Universidade Cruzeiro do Sul</p>
           </div>
           <div class="text-unimed-text">
             <p>
@@ -255,6 +234,15 @@
 </template>
 
 <style>
+.linkedin {
+  color: gray;
+  font-size: 14px;
+}
+.linkedin:hover {
+  color: gray;
+  border-bottom: 1px solid gray;
+  font-size: 14px;
+}
 .ultimo-projeto-subtitle {
   font-size: 15px;
   color: gray;
@@ -303,7 +291,7 @@
   padding-top: 0px;
 }
 .box-shadow-top {
-  box-shadow: 1px 10px 60px rgb(255, 102, 0);
+  box-shadow: 1px 10px 60px rgb(72, 160, 0);
   width: 100%;
   height: 30px;
   margin-top: -30px;
